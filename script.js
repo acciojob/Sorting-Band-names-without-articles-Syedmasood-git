@@ -12,7 +12,8 @@ for(let i=0;i<touristSpots.length;i++){
 		}
 	}
 	let articlelessStr=finalString.trim();
-	mp[arr[i]]=articlelessStr;
+	mp[touristSpots[i]]=articlelessStr;
 	arr2.push(articlelessStr);
-	arr2.sort();
 }
+arr2.sort();
+console.log(arr2);
